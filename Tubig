@@ -1,1 +1,41 @@
-
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner console = new Scanner(System.in);
+		
+		String location ="";
+		char letter;
+		System.out.print("Enter the jeepney's number:");
+		int number = console.nextInt();
+		System.out.print("Enter the jeepney's letter:");
+		letter = console.next().charAt(0);
+		
+                if (number == 12 && letter == 'A')
+            System.out.println("Usual_location = " + " " + Carbon);
+            
+             else if (number == 12 && letter ==  'C' )
+                System.out.println("Usual_location = " + " " + Panganiban);
+            
+            else if (number == 12 && letter ==  'F')
+                System.out.println("Usual_location = " + " " + Taboan);
+            
+           
+            else if (number == 12 && letter == 'G' || letter == 'I')
+                System.out.println("Usual_location = " + " " + Mabolo);
+            
+            
+             else if (number == 12 && letter ==  'L')
+                System.out.println("Usual_location = " + " " + Labangon);
+            
+            
+             else if (number == 13 && letter ==  'C')
+                System.out.println("Usual_location =Talamban");
+            
+             else if (number == 14 && letter == 'D')
+                System.out.println("Usual_location = Capitol");
+            
+            else;
+	}
+	
+}
